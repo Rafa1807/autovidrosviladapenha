@@ -1,0 +1,251 @@
+
+* {
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+}
+body{
+    margin: 0px;
+}
+.main-top {
+    background-color: #FF5600;
+    width: 100%;
+    height: 30px;
+    position: fixed
+}
+.main-top > .social-media {
+    display: flex;
+    justify-content: flex-end;
+    padding: 6px 0;
+}
+.main-top > .social-media > .instagram > img {
+    width: 20px;
+    height: 20px;
+    margin: 0px 3px;
+}
+.main-top > .social-media > .facebook > img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.main-top > .contact-number {
+    position: absolute;
+}
+.main-top > .contact-number > img {
+    width: 25px;
+    margin: 1px 0 0 136px;
+}
+.main-top > .contact-number > .contact-phone-number {
+    font-size: 14px;
+    color: white;
+    height: 20px;
+    width: 100%;
+    margin: -24px 0 0px 165px;
+}
+.main-top > .whatsapp {
+    position: fixed;
+    margin: -1px 0px -1px 2px;
+    display: flex;
+}
+.main-top > .whatsapp > .phone-number-whatsapp {
+    margin: 7px 3px -5px 2px;
+    color: white;
+    font-size: 14px;
+}
+.main-top > .whatsapp > img {
+    width: 24px;
+    height: 24px;
+    margin: 2px;
+}
+.container-logo {
+
+}
+.container-logo > .logo {
+
+}
+.container-logo > .logo > img {
+    width: 100%;
+    height: 100%;
+    margin-top: 41px;
+}
+.label1 {
+    background-color: #FF5600;
+    width: 100%;
+    height: 20px;
+}
+.background-delivery > .background-delivery-img > img {
+    width: 100%;
+    margin-bottom: -4px
+}
+.background-services > .container-servides {
+
+}
+.background-services {
+    background-color: #ff5600;
+    margin: -4px;
+}
+.background-services > .text-services {
+    margin: 4px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.services {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.services > .parabrisas {
+    margin-top: 10px;
+}
+.services > .parabrisas > img {
+    width: 65px;
+}
+.services > .parabrisas > .title-parabrisas {
+    font-size: 30px;
+    margin: 0;
+    color: gray;
+}
+.services > .parabrisas > .description-parabrisas {
+    font-size: 18px;
+    margin: 2px;
+    border: 2px solid #0000001f;
+}
+.services > .acessorios {
+
+}
+.services > .acessorios > img {
+    width: 70px;
+    margin-top: 4px;
+}
+.services > .acessorios > .title-acessorios {
+    margin: 2px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: gray;
+}
+.services > .acessorios > .description-acessorios {
+    margin: 2px;
+    font-size: 18px;
+    border: 2px solid #0000001f;
+}
+.services > .reparo-de-parabrisa {
+
+}
+.services > .reparo-de-parabrisa > img {
+    width: 100px;
+    margin: -8px;
+}
+.services > .reparo-de-parabrisa > .title-reparo-parabrisa {
+    margin: -15px 0 0 0;
+    font-size: 30px;
+    color: gray;
+}
+.services > .reparo-de-parabrisa > .description-reparo-parabrisa {
+    font-family: sans-serif;
+    font-size: 18px;
+    border: 2px solid #0000001f;
+}
+.services > .insulfilm-veicular {
+
+}
+.services > .insulfilm-veicular > img {
+    width: 117px;
+   
+}
+.services > .insulfilm-veicular > .title-insulfilm {
+    margin: 8px 0 0 0;
+    font-size: 30px;
+    color: gray
+}
+.services > .insulfilm-veicular > .description-insulfilm {
+    font-size: 18px;
+    border: 2px solid #0000001f;
+    margin: 2px;
+}
+.services > .troca-reparo-elevador {
+
+}
+.services > .troca-reparo-elevador > img {
+    width: 96px;
+    margin: 13px;
+    margin-top: -12px;
+}
+.services > .troca-reparo-elevador > .title-elevador {
+    margin: -15px 0 0 0;
+    font-size: 30px;
+    color: gray;
+}
+.services > .troca-reparo-elevador > .description-elevador {
+    font-size: 18px;
+    border: 2px solid #0000001f;
+    margin: 2px;
+}
+.background-about-us {
+    background-color: #ff5600;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.background-about-us > .quem-somos {
+    color: white;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.background-about-us > .quem-somos > .title-about-us {
+
+}
+.container-photo-us {
+
+}
+.container-photo-about-us > .image-about-us {
+    background-color: black;
+}
+.container-photo-about-us > .image-about-us > img {
+    width: 100%;
+    opacity: 50%;
+}
+.container-photo-about-us > .container-text-about-us {
+
+}
+.container-photo-about-us > .container-text-about-us > .text-about-us {
+    margin: -196px 0 58px 0;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.email-contact {
+    display: flex;
+}
+.email-contact > .background-email-contact {
+
+}
+.email-contact > .image-contact {
+    width: 60%;
+}
+.email-contact > .image-contact > img {
+    width: 100%;
+}
+.email-contact > .text-message {
+    margin-left: 15px;
+}
+.email-contact > .text-message > .text {
+
+}
+.container-copyright {
+    width: 100%;
+    background-color: #ff5600;
+}
+.container-copyright > .container-copyright-background {
+
+}
+.container-copyright > .text-copyright {
+    text-align: center;
+    color: white;
+    margin-bottom: -15px;
+}
